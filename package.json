@@ -1,7 +1,7 @@
 {
   "homepage": "https://ateendra24.github.io/React_Calculator/",
   "name": "sgpa",
-  "private": false,
+  "public": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
