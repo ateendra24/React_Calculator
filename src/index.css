@@ -8,7 +8,7 @@ th, td {
 }
 
 thead tr {
-  background-color: #009879;
+  background-color: #3c66f3;
   color: #ffffff;
   text-align: left;
 }
@@ -16,6 +16,7 @@ thead tr {
 input{
   text-align: right;
   width: 100%;
+  padding: 2px 4px;
 }
 
 table{
@@ -25,8 +26,8 @@ table{
 
 
 input[type=number]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  padding: 2px 4px;
+  display: none;
+  
 }
 input:focus{
   border: none;

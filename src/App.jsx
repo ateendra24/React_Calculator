@@ -54,17 +54,19 @@ function App() {
         setSGPA(sgpa.toFixed(2));
     };
 
+  
+
     return (
         <div>
             <h2 className='text-3xl font-bold'>SGPA Calculator</h2>
-            <p className='text-sm'>For AKTU <br /> made by @ateendra</p>
+            <p className='text-sm'>For AKTU <br /> made by <a className='italic underline text-blue-700' href='https://github.com/ateendra24' target='_blank'>@ateendra</a></p>
             <br />
             <table>
                 <thead>
                     <tr>
                         <th>Subject</th>
                         <th>Internal Marks</th>
-                        <th>Theory Marks</th>
+                        <th>External Marks</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -90,7 +92,7 @@ function App() {
                 </tbody>
             </table>
             <br />
-            <button  onClick={calculateSGPA} className='text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'> Calculate SGPA</button>
+            <button  onClick={calculateSGPA} className='text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'> Calculate SGPA</button>
             <div className="text-2xl font-bold">SGPA: <span>{sgpa}</span></div>
         </div>
     );
