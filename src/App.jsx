@@ -245,7 +245,7 @@ function App() {
           Calculate YGPA
         </button>
         <div className="text-2xl font-bold">
-          SGPA: <span>{YGPA}</span>
+          YGPA: <span>{YGPA}</span>
         </div>
       </div>
     </div>
